@@ -1,0 +1,43 @@
+//reset
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+//base
+html {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	background-color: #F6F2F2;
+}
+
+body {
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+
+//animation 
+@keyframes moveInLeft {
+	0% {    
+		opacity: 0; 
+		transform: translateX(-10rem); 
+	}
+	
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% { 		
+		opacity: 1;
+		transform: translate(0);
+	}
+}
